@@ -2,7 +2,7 @@ cwlVersion: v1.0
 class: CommandLineTool
 requirements:
   DockerRequirement:
-    dockerPull: hubmap/rna-probes-quantification
+    dockerPull: hubmap/rna-probes-quantification:1.0
   ResourceRequirement:
     ramMin: 28672
 baseCommand: /opt/quantification.py
