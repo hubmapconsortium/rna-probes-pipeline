@@ -3,7 +3,7 @@ class: CommandLineTool
 label: Compute QC metrics
 requirements:
   DockerRequirement:
-    dockerPull: hubmap/rna-probes-analysis:latest
+    dockerPull: hubmap/rna-probes-analysis:1.0.3
 baseCommand: /opt/compute_qc_metrics.py
 
 inputs:
