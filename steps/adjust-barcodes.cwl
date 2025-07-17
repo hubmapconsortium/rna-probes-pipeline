@@ -3,7 +3,7 @@ class: CommandLineTool
 label: Assay-specific adjustment of cell barcodes
 requirements:
   DockerRequirement:
-    dockerPull: hubmap/rna-probes-barcode-adj:1.0.3
+    dockerPull: hubmap/rna-probes-barcode-adj
 baseCommand: /opt/adjust_barcodes.py
 
 inputs:
